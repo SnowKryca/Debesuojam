@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME="flaskwebapp"
+APP_NAME="webcloud"
 APP_DIR="/var/www/$APP_NAME"
 VENV_DIR="$APP_DIR/venv"
 GUNICORN_SERVICE="/etc/systemd/system/$APP_NAME.service"
