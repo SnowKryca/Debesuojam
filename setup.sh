@@ -28,7 +28,7 @@ User=www-data
 Group=www-data
 WorkingDirectory=$APP_DIR
 Environment="PATH=$VENV_DIR/bin"
-ExecStart=$VENV_DIR/bin/gunicorn -w 3 -b 0.0.0.0:8000 "webapp:create_app()"
+ExecStart=$VENV_DIR/bin/gunicorn -w 3 -b 0.0.0.0:8000 "webapp:app"
 
 [Install]
 WantedBy=multi-user.target
